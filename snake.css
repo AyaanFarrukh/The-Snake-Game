@@ -11,9 +11,9 @@ body {
     height: 600px;
     display: grid;
     grid-template-columns: repeat(20,60px);
+    border: 1px solid lightgrey;
 }
 .cell {
-    border: 1px solid lightgray;
     box-sizing: border-box;
 }
 .playagain{
