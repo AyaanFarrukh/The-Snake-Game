@@ -36,11 +36,15 @@ function snakeBodyDisplay() {
             cell.style.backgroundImage = "";
         }
     });
+     //removing eye 
+     cells.forEach((cells) => {
+        cells.classList.remove('snake-head');
+    });
+
     //rendering snake moving:
     snakeBody.forEach((bodyPart,i) => {
     let index = bodyPart.y * 20 + bodyPart.x; //rendering index
     cells[index].style.backgroundColor = "green";
-
 
     if(i === 0 && directions.x === 1) { //rendering rounded corners of new heads of snake
         cells[index].style.borderTopRightRadius = "10px";
@@ -48,16 +52,23 @@ function snakeBodyDisplay() {
     } else if(i === 0 && directions.x === -1) {
         cells[index].style.borderTopLeftRadius = "10px";
         cells[index].style.borderBottomLeftRadius = "10px";
+
     } else if(i === 0 && directions.y === 1) {
         cells[index].style.borderBottomRightRadius = "10px";
         cells[index].style.borderBottomLeftRadius = "10px";
+
     } else if(i === 0 && directions.y === -1) {
         cells[index].style.borderTopRightRadius = "10px";
         cells[index].style.borderTopLeftRadius = "10px";
     } else {
         cells[index].style.borderRadius = "0px";
     }
+
+    if(i === 0) {
+        cells[index].classList.add('snake-head'); //adding eye
+    };
     }) 
+
 };
 
 foodAppear();

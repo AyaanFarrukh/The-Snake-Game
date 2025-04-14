@@ -7,14 +7,19 @@ body {
     background-color:  black;
 }
 .gamegrid {
-    width: 1200px;
+    width: 800px;
     height: 600px;
     display: grid;
-    grid-template-columns: repeat(20,60px);
+    grid-template-columns: repeat(20,40px);
     border: 1px solid lightgrey;
+    background: url("https://w0.peakpx.com/wallpaper/374/1021/HD-wallpaper-snake-game.jpg");
+    background-position: center;
+    background-size: cover;
 }
 .cell {
     box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    /* border: 1px solid lightgray; */
 }
 .playagain{
     background-color: whitesmoke;
