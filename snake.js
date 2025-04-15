@@ -200,7 +200,7 @@ if(goldenFoodPosition) { //added the golden feature
         snakeBody = [snakeBody[0]];
            play = 60000;
            clearInterval(goldenInterval);
-           setInterval(() => {
+          goldenInterval = setInterval(() => {
            GoldenfoodAppear();
            },play);
            goldenFoodPosition = {x: null, y: null};
