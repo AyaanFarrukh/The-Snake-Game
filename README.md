@@ -1,9 +1,8 @@
 
 ---
 
-### 🐍 2. Snake Game – `README.md`
+### 🐍 Snake Game – `README.md`
 
-```markdown
 # 🐍 Snake Game
 
 A fun and interactive web version of the classic Snake Game! Built using HTML, CSS, and JavaScript, this project features a dynamic grid, smooth movement, and both regular and golden food with unique effects.
