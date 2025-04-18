@@ -33,6 +33,6 @@ A fun and interactive web version of the classic Snake Game! Built using HTML, C
 ## 🧪 Getting Started
 
 ```bash
-git clone https://github.com/AyaanFarrukh/Snake-Game.git
-cd Snake-Game
+git clone https://github.com/AyaanFarrukh/The-Snake-Game.git
+cd Snake Game
 open index.html in your browser
