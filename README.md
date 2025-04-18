@@ -1,13 +1,36 @@
-THE SNAKE GAME:<br>
-BEAT THE IMPOSSIBLE IF U CAN:><br>
 
-RULES:<br>
-Rule 1; You will lose if snake eats itself or bites itself or its own bodypart.<br>
-Rule 2: You will lose if the snake goes out of the boundary or hits the boundary line.<br>
-Rule 3: The game speed will increase by a certain amount everytime the snake will eat<br> 
-the food to increase the level of challenge of game<br>
-Rule 4: You will only win when the snake will occupy the whole space in the grid or the area in which you<br>
-will be playing.<br>
-Rule 5: Your score will be updated everytime after the snake will eat the food<br>
+---
 
-HOPE  YOU ENJOY:)
+### 🐍 2. Snake Game – `README.md`
+
+```markdown
+# 🐍 Snake Game
+
+A fun and interactive web version of the classic Snake Game! Built using HTML, CSS, and JavaScript, this project features a dynamic grid, smooth movement, and both regular and golden food with unique effects.
+
+---
+
+## 🚀 Features
+
+- 🎮 Smooth snake controls and movement
+- ⭐ Golden food for bonus points and snake size reduce (BEST FEATURE)
+- 📏 20x20 game grid (1200x600px)
+- 🔄 Game reset and score tracking
+- 💻 Responsive layout and intuitive design
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+
+---
+
+## 🧪 Getting Started
+
+```bash
+git clone https://github.com/AyaanFarrukh/Snake-Game.git
+cd Snake-Game
+open index.html in your browser
