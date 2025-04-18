@@ -28,6 +28,10 @@ A fun and interactive web version of the classic Snake Game! Built using HTML, C
 
 ---
 
+## Screenshots
+
+![Main UI](./images/screencapture-ayaanfarrukh-github-io-The-Snake-Game-2025-04-18-20_38_44.png)
+
 ## 🧪 Getting Started
 
 ```bash
